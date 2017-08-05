@@ -21,13 +21,10 @@
 
 body{
 	font-family: Verdana,Arial,sans-serif;
-	background-color: gray;
+	  background-color:#292b2c;
+  color: white;
 }
 caption{
 	color: white;
 }
 
-body{
-  background-color:#292b2c;
-  color: white;
-}

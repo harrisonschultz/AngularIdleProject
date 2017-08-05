@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { ResourcesComponent } from './resources/resources.component';
 import { AppComponent } from './app.component';
 import { UpgradeComponent } from './upgrade/upgrade.component';
+import { WorkersComponent } from './workers/workers.component';
 
 
 @NgModule({
@@ -10,6 +11,7 @@ import { UpgradeComponent } from './upgrade/upgrade.component';
     AppComponent,
     ResourcesComponent,
     UpgradeComponent,
+    WorkersComponent,
 
   ],
   imports: [

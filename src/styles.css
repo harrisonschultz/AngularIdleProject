@@ -27,28 +27,7 @@ caption{
 	color: white;
 }
 
-.food{
-	color: chartreuse;
-}
-.wood{
-	color: peru;
-}
-
-.stone{
-	color: darkgray;
-}
-.water{
-	color: lightseagreen;
-}
-.farmers{
-	color:	forestgreen;
-}
-.lumberjacks{
-	color: sienna;
-}
-.miners{
-	color: rgb(140,140,140);
-}
-.breeders{
-	color: lightcoral;
+body{
+  background-color:#292b2c;
+  color: white;
 }

@@ -1,3 +1,27 @@
-<p>
-  workers works!
-</p>
+<table id="hireTable">
+  <colgroup>
+    <col span="2" style="width:130px">
+  </colgroup>
+  <tr style="margin:25px">
+    <td class="farmers">Farmers:</td>
+    <td class="farmers values" id="farmers">{{farmers}}</td>
+    <td><button (click)="buyFarmers(1)" class="btn btn-success btn-md">Hire Farmer</button></td>
+
+  </tr>
+  <tr style="margin:25px">
+    <td class="lumberjacks">Lumberjacks:</td>
+    <td class="lumberjacks values" id="lumberjacks">{{lumberjacks}}</td>
+    <td><button (click)="buyLumberjacks(1)" class="btn btn-success btn-md">Hire Lumberjack</button></td>
+
+  </tr>
+  <tr style="margin:25px">
+    <td class="miners">Miners:</td>
+    <td class="miners values" id="miners">{{miners}}</td>
+    <td><button (click)="buyMiners(1)" class="btn btn-success btn-md">Hire Miner</button></td>
+  </tr>
+  <tr style="margin:25px">
+    <td class="scupltors">Scupltors:</td>
+    <td class="scupltors values" id="scupltors">0</td>
+    <td><button (click)="buySculptors(1)" class="btn btn-success btn-md">Hire Sculptor</button></td>
+  </tr>
+</table>

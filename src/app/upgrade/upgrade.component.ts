@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ResourceService } from '../resource.service';
 @Component({
   selector: 'app-upgrade',
   templateUrl: './upgrade.component.html',

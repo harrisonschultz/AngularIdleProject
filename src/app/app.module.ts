@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgModel } from '@angular/forms';
 import { ResourcesComponent } from './resources/resources.component';
 import { AppComponent } from './app.component';
@@ -17,7 +18,8 @@ import { ResourceService } from './resource.service';
 
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgbModule.forRoot()
   ],
   providers: [ResourceService],
   bootstrap: [AppComponent]
